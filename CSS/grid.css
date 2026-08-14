@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    /* display: grid; */
+    grid-template-columns: repeat(3, 100px );
+    grid-template-rows: repeat(2,100px);
+}
+.item{
+    background-color: red;
+}

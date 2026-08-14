@@ -1,0 +1,93 @@
+/* h1{
+    background-color:aquamarine;
+    color: red;
+}
+div{
+    border: 2px solid black;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+ }
+ /* div{
+    background-color: bisque;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/21/06/53/beautiful-natural-image-1844362_1280.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-position: top right;
+
+ } */
+ .container{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    /* border-width: 1px;
+    border-color:blue;
+    border-style: dashed; */
+    /* border-radius: 5px; */
+    /* outline: 2px solid red;
+    outline-offset: 10px; */
+    border-top-left-radius: 5px;
+ }
+ .box{
+   height: 500px;
+   width: 90%;
+   border: 2px solid black;
+   margin: 20px;
+   border-radius: 15px;
+   background-color: bisque;
+   /* text-align: center; */
+   /* text-decoration: underline; */
+   text-transform: capitalize;
+   line-height:45px;
+   word-spacing: 15px;
+   letter-spacing: 5px;
+   /* white-space:nowrap ; */
+  /* box-shadow: 15px 15px 5px gray; */
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  overflow:auto;
+ }
+ .box h1{
+   text-shadow: 5px 5px 3px red;
+ }
+ .box p{
+   text-indent: 250px;
+   font-size: 16px;
+   font-weight: 900;
+   font-style: italic;
+   font-family: "Special Gothic Condensed One", sans-serif;
+   font-variant: small-caps;
+ }
+ /* .box a:hover{
+   text-decoration:none;
+   background-color: aqua;
+
+ } */
+  .box a:active{
+   /* text-decoration:none; */
+   /* background-color: rgb(232, 14, 50); */
+   color:purple
+
+ }
+ .box a:link{
+  text-decoration: none;
+ color: blue;
+
+ }
+ .box a:visited{
+   color:red;
+ }
+ .box>p::first-letter{
+color: blue;
+font-size: 48px;
+ }
+ .box p::first-line{
+  text-decoration: underline;
+ }
+.box p::selection{
+  background-color: rgba(70, 190, 241,0.4);
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinator selector</title>
+    <style>
+        /* decendent selector */
+        /* .box p {
+            background-color: aqua;
+        } */
+         /* child selector */
+        /* .box>p {
+            background-color: blue;
+        } */
+         /* adjacent selector or next sibling */
+        /* .box+p {
+            background-color: pink;
+        } */
+         /* general selector or subsequent sibling*/
+         /* .box~p {
+            background-color: rgb(96, 250, 127);
+        } */
+         /* .box>div+p{
+            color: blue;
+         } */
+          .box{
+            border:2px solid black;
+            background-color: rgba(235, 6, 6, 0.6);
+            /* opacity: 0.5; */
+          }
+            
+    </style>
+  </head>
+  <body>
+
+    <div class="box">
+      <p>P1</p>
+      <p>p2</p>
+      <div>
+        <h2>hello</h2>
+        <p>p3</p>
+      </div>
+      <p>p4</p>
+    </div>
+    <p>p5</p>
+    <p>p6</p>
+  </body>
+</html>
