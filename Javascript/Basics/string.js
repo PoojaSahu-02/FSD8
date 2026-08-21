@@ -36,4 +36,7 @@ console.log(str.search("morning"))
 
 // template literals (string templating)
 // console.log("Hello Everyone "+str)
-console.log(`Hello Everyone ${str}`)
+// console.log(`Hello Everyone ${str}`)
+
+let name = prompt("Enter your Name")
+document.write(`Welcome ${name}`)
