@@ -80,10 +80,14 @@ let brr = [10,'a',undefined,"hello",null,true,[1,2,3],{name:"john"}]
 // brr.shift()
 // brr.shift()
 // brr.shift()
-console.log(brr)
+// console.log(brr)
 // brr.splice(1,0,"good afternoon")
 // console.log(brr)
 // brr.reverse()
 // console.log(brr)
 
-console.log(brr.join(" "))
+// console.log(brr.join(" "))
+let x = 10;
+let y = 0
+console.log(x&&y)
+console.log(object)
