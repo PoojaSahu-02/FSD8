@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+.todo-container{
+    background-color: bisque;
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.todo-container input{
+    height: 30px;
+    width: 500px;
+    outline: none;
+    font-size: 16px;
+}
+.todo-container button{
+   padding:5px 10px ;
+   background-color: black;
+   color: white;
+   border-radius: 5px;  
+}
