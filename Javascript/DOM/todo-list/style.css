@@ -29,3 +29,23 @@ html,body{
    color: white;
    border-radius: 5px;  
 }
+.list-container{
+    background-color: bisque;
+    height: 200px;
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.todo-list{
+    list-style-type:none;
+}
+.btn{
+   padding:5px 10px ;
+   background-color: black;
+   color: white;
+   border-radius: 5px;  
+   margin: 0px 10px; 
+}
