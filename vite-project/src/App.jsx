@@ -1,6 +1,8 @@
 import React from 'react'
 import Props from './Component/Props'
+import Nav from './Component/Nav';
 import userPost from './userPost.json'
+import "./App.css"
 const App = () => {
 //   const users = [
 //   {
@@ -73,6 +75,7 @@ const App = () => {
     {/* <Props obj = {{username:"john",age:20}}></Props> */}
     {/* <Props users = {users}></Props> */}
     <Props data = {userPost}></Props>
+    <Nav></Nav>
     </div>
   )
 }

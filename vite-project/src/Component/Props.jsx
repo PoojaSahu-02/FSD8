@@ -1,20 +1,20 @@
-// let Props = ({data})=>{
-//     console.log(data)
-//     return(
-//         <>
-//         {data.map(({id,title,body})=>{
-//             return(
-//                 <div>
-//                     <h1>{id}</h1>
-//                     <p>{title}</p>
-//                     <p>{body}</p>
-//                 </div>
-//             )
-//         })}
-//         </>
-//     )     
-// }
-// export default Props
+let Props = ({data})=>{
+    console.log(data)
+    return(
+        <div className="flex flex-wrap m-auto w-full gap-10 ">
+        {data.map(({id,title,body})=>{
+            return(
+                <div className="border radius h-50 w-70 rounded-xl">
+                    <h1>{id}</h1>
+                    <p>{title}</p>
+                    <p>{body}</p>
+                </div>
+            )
+        })}
+        </div>
+    )     
+}
+export default Props
 
 
 
@@ -27,12 +27,12 @@
 //       {
 //         users.map((ele)=>{
 //             return(
-//                 <>
+//                 <div key={ele.contact} style={{border:"2px solid black",borderRadius:"5px",height:"200px",width:"300px"}}>
 //                 <h1>{ele.name}</h1>
 //                 <h2>{ele.age}</h2>
 //                 <h2>{ele.email}</h2>
 //                 <h2>{ele.contact}</h2>
-//                 </>
+//                 </div>
 //             )
 //         })
 //       }
