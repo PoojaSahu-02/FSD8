@@ -1,10 +1,10 @@
 let Props = ({data})=>{
     console.log(data)
     return(
-        <div className="flex flex-wrap m-auto w-full gap-10 ">
+        <div className="flex flex-wrap m-auto w-full">
         {data.map(({id,title,body})=>{
             return(
-                <div className="border radius h-50 w-70 rounded-xl">
+                <div className="border m-2 p-5 h-[200px] w-[280px] rounded-xl ">
                     <h1>{id}</h1>
                     <p>{title}</p>
                     <p>{body}</p>

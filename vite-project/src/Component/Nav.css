@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 .nav-container{
     background-color: rgb(1, 1, 114);
     color: white;

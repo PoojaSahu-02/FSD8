@@ -3,6 +3,8 @@ import Props from './Component/Props'
 import Nav from './Component/Nav';
 import userPost from './userPost.json'
 import "./App.css"
+import A from './Component/A'
+import Counter from './Component/Counter';
 const App = () => {
 //   const users = [
 //   {
@@ -74,8 +76,10 @@ const App = () => {
     {/* <Props arr = {[10,20,30,40]}></Props> */}
     {/* <Props obj = {{username:"john",age:20}}></Props> */}
     {/* <Props users = {users}></Props> */}
-    <Props data = {userPost}></Props>
-    <Nav></Nav>
+    {/* <Props data = {userPost}></Props>
+    <Nav></Nav> */}
+    {/* <A data = "Hello"></A> */}
+    <Counter></Counter>
     </div>
   )
 }
