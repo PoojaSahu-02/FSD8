@@ -1,10 +1,13 @@
 import React from 'react'
 import Props from './Component/Props'
 import Nav from './Component/Nav';
-import userPost from './userPost.json'
+// import userPost from './userPost.json'
 import "./App.css"
 import A from './Component/A'
 import Counter from './Component/Counter';
+import Food from './Component/Food';
+import Array from './Component/Array';
+import Card from './Component/Card';
 const App = () => {
 //   const users = [
 //   {
@@ -68,7 +71,6 @@ const App = () => {
 //     contact: "+91-9277889900"
 //   }
 // ];
-
   return (
     <div>
     {/* <Props num1 = {100} num2={200}></Props>
@@ -79,10 +81,12 @@ const App = () => {
     {/* <Props data = {userPost}></Props>
     <Nav></Nav> */}
     {/* <A data = "Hello"></A> */}
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
+    {/* <Food></Food> */}
+    {/* <Array></Array> */}
+    <Card></Card>
     </div>
   )
 }
-
 export default App
 
