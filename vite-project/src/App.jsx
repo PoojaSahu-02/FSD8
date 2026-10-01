@@ -8,6 +8,7 @@ import Counter from './Component/Counter';
 import Food from './Component/Food';
 import Array from './Component/Array';
 import Card from './Component/Card';
+import Form from './Component/Form';
 const App = () => {
 //   const users = [
 //   {
@@ -84,7 +85,8 @@ const App = () => {
     {/* <Counter></Counter> */}
     {/* <Food></Food> */}
     {/* <Array></Array> */}
-    <Card></Card>
+    {/* <Card></Card> */}
+    <Form></Form>
     </div>
   )
 }
