@@ -9,6 +9,9 @@ import Food from './Component/Food';
 import Array from './Component/Array';
 import Card from './Component/Card';
 import Form from './Component/Form';
+import Uncontrolled from './Component/Uncontrolled';
+import FetchData from './Component/FetchData';
+import FetchData1 from './Component/FetchData1';
 const App = () => {
 //   const users = [
 //   {
@@ -86,7 +89,10 @@ const App = () => {
     {/* <Food></Food> */}
     {/* <Array></Array> */}
     {/* <Card></Card> */}
-    <Form></Form>
+    {/* <Form></Form> */}
+    {/* <Uncontrolled></Uncontrolled> */}
+    {/* <FetchData></FetchData> */}
+    <FetchData1></FetchData1>
     </div>
   )
 }
