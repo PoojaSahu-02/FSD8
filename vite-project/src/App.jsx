@@ -1,6 +1,6 @@
 import React from 'react'
 import Props from './Component/Props'
-import Nav from './Component/Nav';
+
 // import userPost from './userPost.json'
 import "./App.css"
 import A from './Component/A'
@@ -13,6 +13,12 @@ import Uncontrolled from './Component/Uncontrolled';
 import FetchData from './Component/FetchData';
 import FetchData1 from './Component/FetchData1';
 import FetchData2 from './Component/FetchData2';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Nav from './Component/Nav';
+import Home from './Component/Home';
+import About from './Component/About';
+import Contact from './Component/Contact';
+import Service from './Component/Service';
 const App = () => {
 //   const users = [
 //   {
@@ -78,13 +84,25 @@ const App = () => {
 // ];
   return (
     <div>
+{/* <BrowserRouter>
+   <Nav></Nav> 
+<Routes>
+  <Route path='/' element={<Home></Home>}></Route>
+  <Route path='/about' element={<About></About>}></Route>
+  <Route path='/contact' element={<Contact></Contact>}></Route>
+  <Route path='/service' element={<Service></Service>}></Route>
+</Routes>
+</BrowserRouter> */}
+
+<Home></Home>
+
     {/* <Props num1 = {100} num2={200}></Props>
     <Props str = "Hello Good morning"></Props> */}
     {/* <Props arr = {[10,20,30,40]}></Props> */}
     {/* <Props obj = {{username:"john",age:20}}></Props> */}
     {/* <Props users = {users}></Props> */}
-    {/* <Props data = {userPost}></Props>
-    <Nav></Nav> */}
+    {/* <Props data = {userPost}></Props>*/}
+ 
     {/* <A data = "Hello"></A> */}
     {/* <Counter></Counter> */}
     {/* <Food></Food> */}
@@ -94,9 +112,10 @@ const App = () => {
     {/* <Uncontrolled></Uncontrolled> */}
     {/* <FetchData></FetchData> */}
     {/* <FetchData1></FetchData1> */}
-    <FetchData2></FetchData2>
+    {/* <FetchData2></FetchData2> */}
     </div>
   )
 }
 export default App
+
 
