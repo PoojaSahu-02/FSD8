@@ -12,6 +12,7 @@ import Form from './Component/Form';
 import Uncontrolled from './Component/Uncontrolled';
 import FetchData from './Component/FetchData';
 import FetchData1 from './Component/FetchData1';
+import FetchData2 from './Component/FetchData2';
 const App = () => {
 //   const users = [
 //   {
@@ -92,7 +93,8 @@ const App = () => {
     {/* <Form></Form> */}
     {/* <Uncontrolled></Uncontrolled> */}
     {/* <FetchData></FetchData> */}
-    <FetchData1></FetchData1>
+    {/* <FetchData1></FetchData1> */}
+    <FetchData2></FetchData2>
     </div>
   )
 }
