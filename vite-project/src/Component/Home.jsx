@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Home = () => {
     let isLogin = false;
   return (
@@ -9,5 +8,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home
