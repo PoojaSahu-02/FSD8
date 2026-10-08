@@ -1,10 +1,16 @@
 import { useState } from "react";
 import axios from "axios";
+import {useNavigate} from 'react-router-dom'
+
 const CreateUser = () => {
+
   let [name, setName] = useState("");
   let [email, setEmail] = useState("");
   let [contact, setContact] = useState("");
   let [age, setAge] = useState("");
+
+let navigate = useNavigate()
+
 
   let nameHandler = (e) => {
     e.preventDefault();
@@ -22,6 +28,7 @@ const CreateUser = () => {
     e.preventDefault();
     setAge(e.target.value);
   };
+
   let btnHandler = async (e) => {
     e.preventDefault();
     // console.log(name, email, contact, age);
@@ -35,6 +42,8 @@ const CreateUser = () => {
     setEmail("");
     setContact("");
     setAge("");
+
+    navigate('/alluser')
   };
 
   return (
