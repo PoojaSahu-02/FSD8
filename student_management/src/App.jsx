@@ -6,6 +6,7 @@ import Login from "./Component/Login"
 import Nav from "./Component/Nav"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import Signup from "./Component/Signup"
+import Edit from "./Component/Edit"
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/alluser" element={<AllUser></AllUser>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
+        <Route path='/edit/:id' element={<Edit></Edit>}></Route>
       </Routes>
       </BrowserRouter>
     </div>

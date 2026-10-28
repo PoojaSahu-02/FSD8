@@ -1,0 +1,1 @@
+The Node.js fs (File System) module is a built-in API that allows you to interact with the file system on your computer. Because it is a core module, you do not need to install it via npm.this is new datathis is new data

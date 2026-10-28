@@ -1,18 +1,33 @@
 {
   "students": [
     {
-      "name": "john",
+      "name": "john kumar",
       "email": "john@gmail.com",
-      "contact": "987654321",
-      "age": "23",
-      "id": "GZnmto_nR-A"
-    },
-    {
-      "name": "tarushi",
-      "email": "tarushi@gmail.com",
       "contact": "98765432",
       "age": "21",
       "id": "dtNny17Bd8I"
+    },
+    {
+      "name": "Dinga",
+      "email": "dinga@gmail.com",
+      "contact": "98765432",
+      "age": "21",
+      "id": "bkwMp3ObLec"
+    },
+    {
+      "name": "Dingi",
+      "email": "dingi@gmail.com",
+      "contact": "876543987",
+      "age": "19",
+      "id": "v-H4E2YbWKM"
+    },
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "contact": "98765432",
+      "password": "123",
+      "id": "gzrYqEoaw3o"
     }
-]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

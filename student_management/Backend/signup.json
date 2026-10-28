@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "oiug",
+      "email": "oiuhgf",
+      "contact": "09876",
+      "password": "9876",
+      "id": "5HGEdCty8CY"
+    },
+    {
+      "name": "kjhg",
+      "email": "kjhg",
+      "contact": "oiu76",
+      "password": "kjh",
+      "id": "4IegLxRJnz4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
