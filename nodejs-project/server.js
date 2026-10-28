@@ -42,7 +42,17 @@ let connectDB = async()=>{
     }
 }
 connectDB()
-
+let studentSchema = mongoose.Schema({
+    name:String,
+    email:String,
+    contact:Number
+})
+let student = mongoose.model("student",studentSchema)
+student.create({
+    name:"john",
+    email:"john@gmail.com",
+    contact:9876543
+})
 
 
 
